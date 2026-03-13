@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tigon Project - Yazılım, Mobil Uygulama ve Web Geliştirme Ajansı.">
+    <title>Tigon Project | Let's Create the Future Together</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <header class="navbar" id="navbar">
+        <div class="container navbar__inner">
+            <a href="#" class="navbar__logo">
+                <img src="images/Vector.png" alt="Tigon Project" class="logo-img">
+            </a>
+
+            <nav class="navbar__nav" id="navMenu">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link" data-i18n="nav.about">About us</a></li>
+                    <li><a href="#services" class="nav__link" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#projects" class="nav__link" data-i18n="nav.projects">Projects</a></li>
+                    <li><a href="#products" class="nav__link" data-i18n="nav.products">Products</a></li>
+                    <li><a href="#career" class="nav__link" data-i18n="nav.career">Career</a></li>
+                </ul>
+            </nav>
+
+            <div class="navbar__actions">
+                <!-- Language Toggle -->
+                <div class="lang-toggle" id="langToggle" title="Dil değiştir / Switch language">
+                    <button class="lang-btn lang-btn--active" data-lang="tr" id="btnTR">TR</button>
+                    <button class="lang-btn" data-lang="en" id="btnEN">EN</button>
+                </div>
+                <a href="#contact" class="btn btn--primary" data-i18n="nav.contact">İletişim</a>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <h1 class="hero__title" data-i18n="hero.title"><span style="white-space: nowrap;">Geleceği birlikte
+                        <span class="hero__accent hero__accent--arrow"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <polyline points="15 5 22 12 15 19"></polyline>
+                                <polyline points="8 5 15 12 8 19"></polyline>
+                            </svg></span></span><br><span style="white-space: nowrap;">yaratalım <span
+                            class="hero__accent hero__accent--diamond"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 22 12 12 22 2 12"></polygon>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                            </svg></span></span></h1>
+                <p class="hero__desc" data-i18n="hero.desc">
+                    Dijital dünyada büyümek isteyen markalara web platformlarından
+                    mobil uygulamalara kadar uçtan uca çözümler sunuyoruz.
+                </p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary btn--lg" data-i18n="nav.contact">İletişim</a>
+                    <a href="#services" class="hero__link" data-i18n="hero.seeWork">Çalışmalarımız
+                        <span>&#8599;</span></a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__num">50+</span>
+                        <span class="stat__label" data-i18n="hero.stat1">Proje</span>
+                    </div>
+                    <div class="stat__divider"></div>
+                    <div class="stat">
+                        <span class="stat__num">30+</span>
+                        <span class="stat__label" data-i18n="hero.stat2">Müşteri</span>
+                    </div>
+                    <div class="stat__divider"></div>
+                    <div class="stat">
+                        <span class="stat__num">5+</span>
+                        <span class="stat__label" data-i18n="hero.stat3">Yıl Deneyim</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__visual">
+            <div class="hero__circles"></div>
+            <div class="hero__phone-wrapper">
+                <img src="images/hero-phone.png" alt="Soffice Mobile App" class="hero__phone" id="heroPhone">
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== BRANDS ===================== -->
+    <section class="brands" id="brands">
+        <div class="container">
+            <p class="brands__label" data-i18n="brands.label">100'den fazla önde gelen marka tarafından tercih
+                edilmekteyiz.</p>
+            <div class="brands__grid">
+                <!-- Row 1 -->
+                <div class="brands__logo"><img src="images/SofficeLogo 1.png" alt="Soffice"></div>
+                <div class="brands__logo"><img src="images/pınar.png" alt="Pınar Su & İçecek"></div>
+                <div class="brands__logo"><img src="images/maxxen.png" alt="Maxxen"></div>
+                <div class="brands__logo">SUNRA.</div> <!-- SUNRA logosu klasörde yoktu -->
+                <div class="brands__logo"><img src="images/varrbeyaz 1.png" alt="Varr"></div>
+
+                <!-- Row 2 -->
+                <div class="brands__logo"><img src="images/tukas.png" alt="Tukaş"></div>
+                <div class="brands__logo"><img src="images/ozsut_logo_2025 1.png" alt="Özsüt"></div>
+                <div class="brands__logo"><img src="images/ozsut_logo_2025 1.png" alt="Özsüt"></div>
+                <div class="brands__logo"><img src="images/ozsut_logo_2025 1.png" alt="Özsüt"></div>
+                <div class="brands__logo"><img src="images/ozsut_logo_2025 1.png" alt="Özsüt"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="services.title">Ne sunuyoruz?</h2>
+                <p class="section-desc" data-i18n="services.desc">
+                    İşletmenizin ihtiyaçlarına göre özelleştirilmiş uçtan uca dijital çözümler sunuyor;
+                    yaratıcılığı en son teknolojiyle bir araya getiriyoruz.
+                </p>
+            </div>
+            <div class="services__grid">
+
+                <div class="service-card reveal" data-index="01">
+                    <img src="images/Group 44.png" alt="Binary Pattern" class="service-card__full-bg">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title" data-i18n="services.s1.title">Web Development</h3>
+                    </div>
+                    <div class="service-card__image-container">
+                        <img src="images/Group 48.png" alt="Tech Icons" class="service-img-layer layer-icons">
+                        <img src="images/Group 26.png" alt="Web Interface" class="service-img-layer layer-main">
+                    </div>
+                </div>
+
+                <div class="service-card reveal reveal-delay-1" data-index="02">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title" data-i18n="services.s2.title">Mobile App</h3>
+                    </div>
+                    <div class="service-card__image-container">
+                        <img src="images/[Mockup] iPhone 12 1.png" alt="Mobile App Mockup" class="service-img-layer">
+                    </div>
+                </div>
+
+                <div class="service-card reveal reveal-delay-2" data-index="03">
+                    <img src="images/Frame2.png" alt="Pattern Background" class="service-card__full-bg">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title" data-i18n="services.s3.title">Custom Software Project</h3>
+                    </div>
+                    <div class="service-card__image-container">
+                        <img src="images/Frame1.png" alt="Code Snippet" class="service-img-layer layer-main-code">
+                    </div>
+                </div>
+
+                <div class="service-card reveal reveal-delay-3" data-index="04">
+                    <div class="service-card__content">
+                        <h3 class="service-card__title" data-i18n="services.s4.title">UI / UX Design</h3>
+                    </div>
+                    <div class="service-card__image-container">
+                        <img src="images/Components 1.png" alt="Input Field" class="service-img-layer layer-comp-1">
+                        <img src="images/Components (3) 1.png" alt="Badge" class="service-img-layer layer-comp-2">
+                        <img src="images/Components (1) 1.png" alt="Toggle" class="service-img-layer layer-comp-3">
+                        <img src="images/Components (4) 1.png" alt="Grid System" class="service-img-layer layer-comp-4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== THINK CODE IMPROVE ===================== -->
+    <section class="tci" id="about">
+        <div class="container tci__inner">
+            <div class="tci__content reveal">
+                <h2 class="tci__title">
+                    THINK_<br>
+                    CODE_<br>
+                    IMPROVE_
+                </h2>
+                <p class="tci__desc" data-i18n="tci.desc">
+                    Yazılım geliştirmede iteratif bir yaklaşıma inanıyoruz. Her proje derin bir düşünceyle başlar,
+                    ardından temiz bir uygulama ve sürekli iyileştirmeyle mükemmelliğe ulaşır.
+                </p>
+                <ul class="tci__features">
+                    <li>
+                        <div class="tci__feat-icon"><svg viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M10 2L12.09 7.26L17.66 7.27L13.18 10.51L14.88 15.74L10 12.37L5.12 15.74L6.82 10.51L2.34 7.27L7.91 7.26L10 2Z"
+                                    fill="#FF5B00" />
+                            </svg></div>
+                        <span data-i18n="tci.f1">Hızlı teslimat için Agile metodoloji</span>
+                    </li>
+                    <li>
+                        <div class="tci__feat-icon"><svg viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M10 2L12.09 7.26L17.66 7.27L13.18 10.51L14.88 15.74L10 12.37L5.12 15.74L6.82 10.51L2.34 7.27L7.91 7.26L10 2Z"
+                                    fill="#FF5B00" />
+                            </svg></div>
+                        <span data-i18n="tci.f2">İşletmenizle birlikte ölçeklenen kod kalitesi</span>
+                    </li>
+                    <li>
+                        <div class="tci__feat-icon"><svg viewBox="0 0 20 20" fill="none">
+                                <path
+                                    d="M10 2L12.09 7.26L17.66 7.27L13.18 10.51L14.88 15.74L10 12.37L5.12 15.74L6.82 10.51L2.34 7.27L7.91 7.26L10 2Z"
+                                    fill="#FF5B00" />
+                            </svg></div>
+                        <span data-i18n="tci.f3">Yayın sonrası destek &amp; optimizasyon</span>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn--primary" data-i18n="nav.contact">İletişim</a>
+            </div>
+
+            <div class="tci__image-side reveal reveal-delay-1">
+                <div class="tci__image-wrapper">
+                    <video class="tci__video" autoplay loop muted playsinline>
+                        <source src="images/tci-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="tci__expand-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="tci__dots">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-section" id="contact">
+        <div class="cta-section__bg"></div>
+        <div class="container cta-section__inner">
+            <h2 class="cta-section__title" data-i18n="cta.title">Birlikte Yaratalım</h2>
+            <p class="cta-section__desc" data-i18n="cta.desc">Vizyonunuzu gerçeğe dönüştürmeye hazır mısınız? Harika bir
+                şeyler inşa edelim.</p>
+            <div class="cta-section__actions">
+                <a href="#contact" class="btn btn--primary btn--lg" data-i18n="nav.contact">İletişim</a>
+            </div>
+            <div class="cta-section__contact-info">
+                <span>&#128231; hello@tigon.com</span>
+                <span>&#128222; +90 500 123 45 67</span>
+                <span>&#128205; İzmir, Türkiye</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <img src="images/Vector.png" alt="Tigon Project" class="logo-img footer__logo-img">
+                    <p class="footer__tagline" data-i18n="footer.tagline">Dijital geleceği inşa ediyoruz, bir proje bir
+                        seferde.</p>
+                    <div class="footer__socials">
+                        <a href="#" class="social-btn" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="Twitter/X">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#000" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__col">
+                        <h4 class="footer__col-title" data-i18n="footer.company">Şirket</h4>
+                        <ul>
+                            <li><a href="#about" data-i18n="nav.about">Hakkımızda</a></li>
+
+                            <li><a href="#career" data-i18n="nav.career">Kariyer</a></li>
+                            <li><a href="#" data-i18n="footer.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__col-title" data-i18n="nav.services">Hizmetler</h4>
+                        <ul>
+                            <li><a href="#services" data-i18n="services.s1.title">Web Geliştirme</a></li>
+                            <li><a href="#services" data-i18n="services.s2.title">Mobil Uygulama</a></li>
+                            <li><a href="#services" data-i18n="services.s3.title">Özel Yazılım</a></li>
+                            <li><a href="#services" data-i18n="services.s4.title">UI / UX Tasarım</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4 class="footer__col-title" data-i18n="nav.contact">İletişim</h4>
+                        <ul>
+                            <li><a href="mailto:hello@tigon.com">hello@tigon.com</a></li>
+                            <li><a href="tel:+905001234567">+90 500 123 45 67</a></li>
+                            <li><a href="#" data-i18n="footer.city">İstanbul, Türkiye</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy" data-i18n="footer.copy">&copy; 2026 Tigon. Tüm hakları saklıdır.</p>
+                <div class="footer__legal">
+                    <a href="#" data-i18n="footer.privacy">Gizlilik Politikası</a>
+                    <a href="#" data-i18n="footer.terms">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
